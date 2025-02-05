@@ -1,8 +1,8 @@
 <?php
     use PHPUnit\Framework\TestCase;
-    //use HolaMundoMultilenguaje\Saludo;
+    use HolaMundoMultilenguaje\Saludo;
 
-    require_once __DIR__ . './../src/Saludo.php';
+    
     class SaludoTest extends TestCase
     {
     public function testGenerarSaludoAleatorio()
