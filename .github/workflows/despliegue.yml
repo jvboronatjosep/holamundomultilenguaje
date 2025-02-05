@@ -18,6 +18,9 @@ jobs:
           php-version: '8.3'
 
       - name: Install dependencies
+        run: composer update 
+
+      - name: Install dependencies
         run: composer install
 
       - name: Run tests
